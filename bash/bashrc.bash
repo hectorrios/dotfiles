@@ -15,6 +15,12 @@ export HISTFILESIZE=100000
 # append to history, don't overwrite it
 shopt -s histappend
 
+#add laravel cli to PATH
+export PATH="$PATH:~/.composer/vendor/bin"
+
+#add SUGAR_MOBILE_SDK_HOME path
+export SUGAR_MOBILE_SDK_HOME=/Library/Developer/sugar-mobile-sdk
+ 
 # Save and reload the history after each command finishes
 #export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 
