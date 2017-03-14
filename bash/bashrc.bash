@@ -21,7 +21,8 @@ export PATH="$PATH:~/.composer/vendor/bin"
 #add SUGAR_MOBILE_SDK_HOME path
 export SUGAR_MOBILE_SDK_HOME=/Library/Developer/sugar-mobile-sdk
 
-#add GOLANG GOPATH environment variable
+#Variables for GOLANG
+export GOROOT=/usr/local/go
 export GOPATH=/Users/$USER/developer/GoLang/work
  
 # Save and reload the history after each command finishes
