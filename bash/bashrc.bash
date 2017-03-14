@@ -22,7 +22,7 @@ export PATH="$PATH:~/.composer/vendor/bin"
 export SUGAR_MOBILE_SDK_HOME=/Library/Developer/sugar-mobile-sdk
 
 #add GOLANG GOPATH environment variable
-export GOPATH=/Users/hectorrios/developer/GoLang/work
+export GOPATH=/Users/$USER/developer/GoLang/work
  
 # Save and reload the history after each command finishes
 #export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
